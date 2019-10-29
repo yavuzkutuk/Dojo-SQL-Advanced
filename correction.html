@@ -1,0 +1,16 @@
+Requête 1
+SELECT * FROM Employes WHERE commission IS NOT NULL
+
+Requête 2:
+SELECT prenom, profession, salaire FROM Employes ORDER BY profession, salaire DESC
+
+Requête 3:
+SELECT AVG(salaire) FROM Employes GROUP BY id_departement
+
+Requête 4:
+SELECT AVG(salaire) FROM Employes WHERE id_departement=2
+
+Requête 5:
+SELECT id_departement, MAX(salaire) FROM Employes GROUP BY id_departement
+
+Requête 6:
