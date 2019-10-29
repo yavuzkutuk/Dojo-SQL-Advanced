@@ -5,12 +5,19 @@ Requête 2:
 SELECT prenom, profession, salaire FROM Employes ORDER BY profession, salaire DESC
 
 Requête 3:
-SELECT AVG(salaire) FROM Employes GROUP BY id_departement
+SELECT D.nom, AVG(salaire) as moyenne FROM Employes E JOIN Departement D ON D.id=E.id_departement GROUP BY D.id ORDER BY moyenne DESC
 
 Requête 4:
 SELECT AVG(salaire) FROM Employes WHERE id_departement=2
 
 Requête 5:
-SELECT id_departement, MAX(salaire) FROM Employes GROUP BY id_departement
+SELECT D.numerodepartement, MAX(E.salaire) as max FROM Employes E, Departement D WHERE E.id_departement=D.id GROUP BY E.id_departement
 
 Requête 6:
+SELECT D.nom, MAX(salaire) FROM Employes E, Departement D WHERE D.id=E.id_departement GROUP BY D.nom
+
+Requête 7:
+SELECT profession, AVG(salaire) FROM Employes GROUP BY profession
+
+Requête 8:
+SELECT AVG(salaire) as Moyenne FROM Employes GROUP BY profession ORDER BY Moyenne ASC
