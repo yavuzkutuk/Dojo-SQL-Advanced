@@ -10,7 +10,7 @@ salaire décroissant
 * REQ5: Donnez les numéros de département et leur salaire maximum
 * REQ6: Donnez les prenoms des employés ayant le salaire maximum dans chaque nom département
 * REQ7: Donnez les différentes professions et leur salaire moyen
-* REQ8: Donnez le salaire moyen par profession le plus bas
+* REQ8: Donnez le salaire moyen par profession 
 
 ### Importer le fichier SQL
 
