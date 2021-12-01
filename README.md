@@ -11,7 +11,7 @@ Utiliser les notions de valeur , tris, expressions statistiques en SQL
 * REQ5: Donnez les numéros de département et leur salaire maximum
 * REQ6: Donnez les employés ayant le salaire maximum pour chaque nom département
 * REQ7: Donnez les différentes professions et leur salaire moyen
-* REQ8: Donnez le salaire moyen par profession le plus bas
+* REQ8: Donnez le salaire moyen par profession 
 
 ### Importer le fichier SQL
 
@@ -24,4 +24,3 @@ Utiliser les notions de valeur , tris, expressions statistiques en SQL
 
 #### Departement
 ![Departement](./departement.png)
-
